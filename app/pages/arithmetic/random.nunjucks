@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Random</h1>
+        <input type="" v-model="input">
+        <button v-on:click="random">Randomise</button>
+        <button v-on:click="chain">Chain</button>
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Random</h1>
+        <p>
+            Amet ratione commodi totam assumenda earum veritatis eligendi, voluptates officiis dolore. Doloribus voluptatibus soluta recusandae ab nisi eveniet consequuntur explicabo fugiat iure? Dolore assumenda hic ipsum officia mollitia. Quo animi?
+        </p>
+    </div>
+</div>
+{% endblock %}

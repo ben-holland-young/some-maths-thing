@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Sum</h1>
+        <input type="" v-model="input">
+        <button v-on:click="sum">Sum</button>
+        <button v-on:click="chain">Chain</button>
+        <p v-html="output"></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Sum average</h1>
+        <p>
+            Sit ad expedita dolor esse ut. Quo error dignissimos enim ex fugiat vero! Voluptates placeat quasi est ipsa hic non. Quos quos voluptate voluptate facilis veniam. Eum dolorem blanditiis cumque.
+        </p>
+    </div>
+</div>
+{% endblock %}

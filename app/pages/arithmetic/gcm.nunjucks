@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Greatest Common Factor</h1>
+        <input type="" v-model="input">
+        <button v-on:click="gcm">Calculate</button>
+        <button v-on:click="chain">Chain</button>
+        <p v-html="output"></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Greatest Common Factor</h1>
+        <p>
+            Sit nostrum facere qui quis suscipit distinctio quo? Culpa sapiente saepe voluptatum ducimus qui animi amet voluptatum accusamus recusandae reprehenderit amet? Deleniti quod autem quam culpa ad! Odit quibusdam adipisci!
+        </p>
+    </div>
+</div>
+{% endblock %}

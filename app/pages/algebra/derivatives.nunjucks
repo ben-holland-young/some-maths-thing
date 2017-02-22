@@ -1,0 +1,19 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Derivatives</h1>
+        <input type="" v-model="input">
+        <button v-on:click="derive">Derive</button>
+        <button v-on:click="chain">Chain</button>
+        <p v-html="output"></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Differentiation</h1>
+        <p>
+            Adipisicing voluptates dicta id ad ullam dolorem velit et alias illo tempora, ipsa reprehenderit perferendis quasi quasi obcaecati. Nobis perferendis ipsam quas eaque alias praesentium? Voluptatibus molestias saepe deserunt velit.
+        </p>
+    </div>
+</div>
+{% endblock %}

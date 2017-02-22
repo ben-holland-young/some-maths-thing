@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>X to the power of Y</h1>
+        <input type="" v-model="output">
+        <button v-on:click="power">Calculate</button>
+        <button v-on:click="chain">Chain</button>
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h1>X to the power of y</h1>
+        <p>
+            Sit quaerat suscipit facilis maxime minus distinctio provident. Cupiditate quibusdam itaque vel magni ipsum consectetur architecto deserunt accusantium, quam omnis labore? Amet aliquam dolor velit tempora doloribus at rem ea?
+        </p>
+    </div>
+</div>
+{% endblock %}

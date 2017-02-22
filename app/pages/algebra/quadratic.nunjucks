@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Quadratic Equations</h1>
+        <input type="" v-model="input">
+        <button v-on:click="quadratic">Solve</button>
+        <button v-on:click="chain">Chain</button>
+        <p v-html="output"></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Quadratics</h1>
+        <p>
+            Adipisicing veniam blanditiis incidunt eius natus explicabo unde! Placeat beatae necessitatibus neque nemo in porro a, eligendi doloremque voluptate maiores autem rem! Magnam dolorem a quod consequatur voluptatum praesentium ea.
+        </p>
+    </div>
+</div>
+{% endblock %}

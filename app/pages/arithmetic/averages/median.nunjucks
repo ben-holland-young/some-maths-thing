@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Median</h1>
+        <input type="" v-model="input">
+        <button v-on:click="median">Median</button>
+        <button v-on:click="chain">Chain</button>
+        <p v-html="output"></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Median average</h1>
+        <p>
+            Elit sunt voluptate optio sunt facilis non. Consequuntur delectus voluptatum est deleniti iste. Eveniet eaque natus veniam fugiat commodi. Vitae reprehenderit laboriosam mollitia velit magnam culpa! Natus architecto voluptatum exercitationem!
+        </p>
+    </div>
+</div>
+{% endblock %}

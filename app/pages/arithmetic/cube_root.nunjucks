@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Cube root</h1>
+        <input type="" v-model="input">
+        <button v-on:click="cubeRoot">Cube Root</button>
+        <button v-on:click="chain">Chain</button>
+        <p v-html="output"></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Cube root</h1>
+        <p>
+            Adipisicing minima similique quae enim consequatur natus beatae ratione! Amet incidunt magni nemo fugit eligendi. A ad quam pariatur vitae error mollitia impedit eos obcaecati temporibus. Deleniti aperiam veritatis esse.
+        </p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Lowest Common Factor</h1>
+        <input type="" v-model="input">
+        <button v-on:click="lcm">Calculate</button>
+        <button v-on:click="chain">Chain</button>
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Lowest Common Factor</h1>
+        <p>
+            Sit atque illo quibusdam aspernatur quos! Assumenda fugiat delectus tenetur in nulla. Eaque omnis minus veritatis possimus deserunt? At voluptatum consequatur cum nesciunt perferendis cum! Excepturi laudantium nemo ipsum magni!
+        </p>
+    </div>
+</div>
+{% endblock %}

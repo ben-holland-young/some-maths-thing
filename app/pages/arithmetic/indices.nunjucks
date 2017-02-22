@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Indices</h1>
+        <input type="" v-model="input">
+        <button v-on:click="indices">Simplify</button>
+        <button v-on:click="chain">Chain</button>
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h1></h1>
+        <p>
+            Amet magni nam blanditiis earum itaque dolorum doloremque quod facilis placeat cumque sunt fugit! Placeat eveniet aperiam perspiciatis sapiente neque accusantium impedit. Veniam voluptas esse odio alias assumenda. Ipsum quisquam?
+        </p>
+    </div>
+</div>
+{% endblock %}

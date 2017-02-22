@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1></h1></h1>
+        <input type="">
+        <button></button>
+        <button></button>
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h1></h1>
+        <p>
+            Amet voluptates iste tenetur nobis alias veniam pariatur dolores quas nihil soluta dolore necessitatibus vero libero placeat quis odio eum aliquam sed sapiente possimus recusandae? Iusto labore reprehenderit omnis omnis.
+        </p>
+    </div>
+</div>
+{% endblock %}

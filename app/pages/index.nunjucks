@@ -1,0 +1,32 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Heading</h1>
+        <p>
+            Lorem voluptatum beatae ipsa laborum eligendi id atque veritatis nostrum voluptatum cum odit placeat adipisci. Aliquam ipsa exercitationem explicabo tenetur excepturi minima sunt aliquid nostrum voluptas praesentium dolorum. Itaque quibusdam!
+        </p>
+    </div>
+    <div class="col-md-6">
+        <h1>Heading</h1>
+        <p>
+            Sit commodi commodi autem officiis consectetur quo voluptatibus repellendus earum corporis. Numquam voluptatem atque voluptatibus atque amet laboriosam. Deleniti suscipit eum assumenda laudantium blanditiis labore consequatur. Aspernatur ipsa eius velit.
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h1>Heading</h1>
+        <p>
+            Ipsum minus placeat rerum facilis et pariatur voluptatibus fuga. Illum rem dolores adipisci quia provident. Aut eaque laboriosam necessitatibus id molestias incidunt animi. Delectus perspiciatis quasi eligendi eum iure et.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <h1>Heading</h1>
+        <p>
+            Adipisicing inventore consectetur corrupti quaerat quae laborum in eaque, voluptate nostrum est minima. Minus incidunt ipsa et maiores dicta quos officia molestiae ullam. Inventore perferendis explicabo beatae quas voluptas esse.
+        </p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <h1>Square root</h1>
+        <input type="" v-model="input">
+        <button  v-on:click="root">Root</button>
+        <button v-on:click="chain">Chain</button>
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <h1>Square Root</h1>
+        <p>
+            Elit vitae dolorem perspiciatis quidem esse unde? Doloribus quasi libero laboriosam harum corporis molestias et molestias, velit ratione repudiandae repudiandae sequi eius, distinctio natus ratione? Voluptates nihil deserunt commodi quae.
+        </p>
+    </div>
+</div>
+{% endblock %}
